@@ -24,6 +24,19 @@ type Professor {
     gender: String
 }
 
+input ChosenStudent {
+    first_name: String
+    last_name: String
+    gender: String
+    house: String
+}
+
+input ChosenProfessor {
+    first_name: String
+    last_name: String
+    gender: String
+}
+
 type Query {
     Houses: [House]
     HouseByNameOrID(input: String!): House
@@ -31,7 +44,18 @@ type Query {
     StudentByNameOrID(input: String!): Student
     StudentsByHouse(input: String!): [Student]
     Professors: [Professor]
-    ProfessorsByNameOrID(input: String!): Professor
+    ProfessorByNameOrID(input: String!): Professor
+}
+
+type Mutation {
+    addStudent(input: ChosenStudent): String!
+    addProfessor(input: ChosenProfessor): String!
+    
+    editStudent(NameorID: String!, changes: ChosenStudent): String!
+    editProfessor(NameorID: String!, changes: ChosenProfessor): String!
+
+    deleteStudent(NameorID: String!): String!
+    deleteProfessor(NameorID: String!): String!
 }
 `
 module.exports = typeDefs;
