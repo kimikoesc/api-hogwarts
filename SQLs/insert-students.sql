@@ -1,0 +1,21 @@
+INSERT INTO students (first_name, last_name, gender, house) 
+VALUES
+('Harry', 'Potter', 'M', 'Gryffindor'),
+('Hermione', 'Granger', 'F', 'Gryffindor'),
+('Ronald', 'Weasley', 'M', 'Gryffindor'),
+('Fred', 'Weasley', 'M', 'Gryffindor'),
+('George', 'Weasley', 'M', 'Gryffindor'),
+('Seamus', 'Finnigan', 'M', 'Gryffindor'),
+('Neville', 'Longbottom', 'M', 'Gryffindor'),
+('Parvati', 'Patil', 'F', 'Gryffindor'),
+('Ginny', 'Weasley', 'F', 'Gryffindor'),
+('Cedric', 'Diggory', 'M', 'Hufflepuff'),
+('Hannah', 'Abbott', 'F', 'Hufflepuff'),
+('Susan', 'Bones', 'F', 'Hufflepuff'),
+('Cho', 'Chang', 'F', 'Ravenclaw'),
+('Padma', 'Patil', 'F', 'Ravenclaw'),
+('Luna', 'Lovegood', 'F', 'Ravenclaw'),
+('Gregory', 'Goyle', 'M', 'Slytherin'),
+('Draco', 'Malfoy', 'M', 'Slytherin'),
+('Theodor', 'Nott', 'M', 'Slytherin'),
+('Vincent', 'Crabbe', 'M', 'Slytherin');
