@@ -1,0 +1,29 @@
+{
+  "name": "api-hogwarts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config server/index.js",
+    "start": "node -r dotenv/config server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimikoesc/api-hogwarts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimikoesc/api-hogwarts/issues"
+  },
+  "homepage": "https://github.com/kimikoesc/api-hogwarts#readme",
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.6.1",
+    "knex": "^0.95.11",
+    "nodemon": "^2.0.13",  
+    "pg": "^8.7.1"
+  }
+}
