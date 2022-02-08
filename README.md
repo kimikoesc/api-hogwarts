@@ -1,6 +1,6 @@
 # api-hogwarts
 This was created during my time as a student at Code Chrysalis!
-
+  
 # Introduction
 Hogwarts API is made by a potterhead. 
 
